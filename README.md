@@ -1,5 +1,5 @@
-# Map of visibility from Pilot Knob State Nature Sanctuary
-This map is designed to show the visibility range from the outlook of Pilot Knob at Pilot Knob State Nature Sanctuary. While this map is to serve as no replacement to the real experience, it is intended to be supplementary to what hikers can see from the lookout point at the end of the trail. This map can also verify to the user what they can or cannot see from the outlook on Pilot Knob, as there could be some areas not identifiable from this map. 
+# Map of visibility overlap from popular destinations in Red River Gorge
+This map is designed to show overlapping visibilities from popular hiking destinations within Red River Gorge. While this map is to serve as no replacement to the real experience, it is intended to be supplementary to what hikers can see from these destinations and where overlap from these viewpoints can occur. 
 
 If you would like to view this map, [please click here](https://...).
 
@@ -17,10 +17,12 @@ If you wanted to include a table of contents to sections, and then links to each
 
 [Link to data source](https://...)
 
-* Initial Data projection: 
-* Final Map projection:
+* Initial Data projection: WGS 84, NAD83 (2011) Kentucky Single Zone (EPSG 3089)
+* Final Map projection: NAD83 (2011) / UTM Zone 17N (EPSG: 6346)
 
 ### Project Background
+
+This project was intended to give the viewer an understanding of visibilities from various overlooks throughout Red River Gorge. These destinations were chosen based on popular hiking destinations as well as with the intent to show overlapping visibilities. 
 
 If you are interested in [other Markdown formatting options](https://www.markdownguide.org/basic-syntax/)
 
