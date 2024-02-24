@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "RRG_Overlooks_6346",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::6346" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "Name": "Cloud splitter" }, "geometry": { "type": "Point", "coordinates": [ 269406.193985626334324, 4191010.680540227796882 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Hansen's Point" }, "geometry": { "type": "Point", "coordinates": [ 268796.753011281194631, 4188718.073539963457733 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Chimnet Top Rock" }, "geometry": { "type": "Point", "coordinates": [ 269162.990601551951841, 4189390.924726063385606 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Raven Rock" }, "geometry": { "type": "Point", "coordinates": [ 265355.087261286564171, 4190945.821172148920596 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Haystack Rock" }, "geometry": { "type": "Point", "coordinates": [ 264339.986788846552372, 4191017.527183934580535 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Courthouse Rock" }, "geometry": { "type": "Point", "coordinates": [ 264312.742408653371967, 4191699.908215488307178 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Half Moon Arch" }, "geometry": { "type": "Point", "coordinates": [ 269210.00517025438603, 4189085.359699024818838 ] } },
+{ "type": "Feature", "properties": { "id": null, "Name": "Adena Arch" }, "geometry": { "type": "Point", "coordinates": [ 270242.229948837077245, 4191163.610543935094029 ] } }
+]
+}
