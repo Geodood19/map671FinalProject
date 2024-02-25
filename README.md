@@ -104,8 +104,49 @@ To connect to the map server, you will need to navigate in QGIS to the Browser p
  3. Optional Imagery and OpenStreetMap (or other) basemap layer added to reference for the digitizing step.
  4. A point shapefile/layer digitized from the base layer and imagery.
 
- Now we can create out data for the viewshed! Since you added the *Viewshed Analysis* plugin, you have the geoprocessing tools available to you for this analysis! First, we need to create our viewpoints. In your Processing Toolbox pane, search for "*Create Viewpoints*". 
+ Now we can create out data for the viewshed! Since you added the *Viewshed Analysis* plugin, you have the geoprocessing tools available to you for this analysis! First, we need to create our viewpoints. In your Processing Toolbox pane, search for "*Create Viewpoints*". Fill out the tool to be similar to the following image. 
 
+ ![Create Viewpoints Window](graphics/Create%20Viewpoints.JPG)
+
+ *Create viewpoints window*
+
+ A couple of things to note: radius of analysis and observer height. The radius of analysis chosen for this was five miles, which turns out is 8047 meters. This was to ensure the analysis was performed in a wide enough radius from each viewpoint so that there is sufficient overlap in the analysis. You can choose to reduce your viewpoint analysis if you'd like. 
+
+ The observer height was chosen to be 1.6 meters, as that is the average adult height. If you were to choose an observation tower, such as the one mentioned previous in Great Smoky Mountains National Park on Clingman's Dome, you would need to set this observer height to be that of the observation tower. You could theoretically play around with this number and figure out what a 3 meter tall adult would be able to see from each viewpoint, or if there were a 15 meter observational tower at each viewpoint! More opportunities for more fun maps! For now, it is best to keep it at the average adult height since there are no towers to climb for the awesome views in Red River Gorge.
+
+ You should have your viewshed layer created! Feel free to save that as its own layer in your desired location. Time to create our viewshed!
+
+ The viewshed tool outputs a raster layer that we can use to showcase the visible areas in Red River Gorge. Search for *Viewshed* in the Processing Toolbox pane. Fill in the Observer Location to be the viewpoints layer you just created, and the Digital elevation model as your DEM, in the correct PCS. 
+
+ ![viewshed window](graphics/Viewshed.JPG)
+
+ *Viewshed Tool*
+
+ Viewshed allows us to choose a couple of different analysis types, such as Depth below horizon and horizon. For this, we ant a binary viewshed which allows us the rating of being visible (0) or not visibile (1). 
+
+ We also want to combine our multiple outputs using the Addition option. This combines what is visible between viewpoints and adds those binary values together to give a visibility rating for each pixel! The output will generate 30-meter viewshed pixels with varying pixel values. Click *Run* to execute the tool. 
+
+ You should now have a temporary raster layer in your Layers pane! Great! We can style and edit this to be however we'd like. Feel free to choose whatever colors you want, but I would highly recommend having a similar color across a color ramp for your analysis. Below are the colors I chose based on their pixel value. 
+
+ ![Viewshed Raster Symbology](graphics/ViewshedRasterSymbology.JPG)
+
+ *Symbology window for the viewshed raster layer*
+
+ You can see that the colors are all similar in that they are in the same family tree. I stuck with a light color as my first color, and then incrementally changed the values for each color to incrementally make them darker. 
+
+ Couple of things to note: because we want to see **only** what is visible, we want to remove any pixel value of "0" from being shown on the map. You will also note that I also have the ppixel value of "5" set to 100% transparent. The results I generated only provided me values from 0-4, so there was no need to symbolize 5 on the map. 
+
+ Another thing: feel free to play around with blend modes for your map as well! This is a great way to symbolize and style raster layers in your map and can be used to spice up your maps. I wanted to use an imagery basemap in my final map, so this raster works very well with an Overlay blend mode which combines the colors in the raster with that of the next layer directly below it. The result looks similar to the below screenshot.
+
+ ![Viewshed overlay raster](graphics/ViewshedOverlayBlend.JPG)
+
+ *Viewshed raster with the overlay blend mode applied*
+
+ Time to make the map! Now go to Project -> New Print Layout. Feel free to give this layout a name of your choice. This is your time to style the map how you want! Add a north arrow, label your viewpoints, and you can even add an overview map to give proper context of where your main map is located! Below is the final map for my submission.
+
+ ![final map 300 dpi](map/RRG_Visibility_300dpi.png)
+
+ You can also find a link to a higher resolution map [here](map/RRG_Visibility_600dpi.png). 
  
 
 1. **Example bold**
