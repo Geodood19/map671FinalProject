@@ -163,4 +163,4 @@ While this is an entirely informational purpose, this gives an interesting persp
 
 Here you are linking from the README.md to the index.html.
 
-Please view the [final map online](www.github...)
+Please view the [final map online](https://Geodood19.github.io/map671FinalProject)
