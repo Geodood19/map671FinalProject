@@ -144,9 +144,9 @@ To connect to the map server, you will need to navigate in QGIS to the Browser p
 
  Time to make the map! Now go to Project -> New Print Layout. Feel free to give this layout a name of your choice. This is your time to style the map how you want! Add a north arrow, label your viewpoints, and you can even add an overview map to give proper context of where your main map is located! Below is the final map for my submission.
 
- ![final map 300 dpi](map/RRG_Visibility_300dpi.png)
+ ![final map 300 dpi](Map/RRG_Visibility_300dpi.png)
 
- You can also find a link to a higher resolution map [here](map/RRG_Visibility_600dpi.png). 
+ You can also find a link to a higher resolution map [here](Map/RRG_Visibility_600dpi.png). 
  
 
 1. **Example bold**
