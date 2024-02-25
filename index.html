@@ -1,170 +1,118 @@
 <!DOCTYPE html>
 <html>
+<!-- This is a comment in HTML -->
 
 <head>
-  <meta charset=utf-8 />
-  <title>Identifying new opportunities for birth defects surveillance</title>
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+	<meta charset=utf-8 />
+	<!-- Below is the title of the document -->
+	<title>Viewshed analysis - visibility overlap from popular hiking destinations in Red River Gorge</title>
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css" />
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
 
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      background: #d3d3d3;
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 400;
-      color: #3d3d3d;
-    }
+	<style>
+		/* This is a comment in CSS. Below are the document styles. */
+		/* Hexadecimal values for UKy Colors: 
+            #c7c9c8 light gray 
+            #63666a dark gray
+            #15397f dark blue
+            #009bda light blue
+            #0033a0 official blue
+        */
+		body {
+			margin: 0;
+			padding: 0;
+			background: #ffffff;
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 400;
+			color: #3d3d3d;
+		}
 
-    section {
-      width: 80%;
-      margin: 10px auto;
-    }
+		section {
+			width: 960px;
+			/* width: 80%; */
+			margin: 20px auto;
+		}
 
-    h1 {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 300;
-      font-size: 2.5em;
-      /* The em unit. 2.5x the current size */
-      letter-spacing: .04em;
-      text-transform: uppercase;
-    }
+		h1 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 300;
+			/* The em unit. 2.5x the current size */
+			font-size: 2.5em;
+			letter-spacing: .04em;
+			text-transform: uppercase;
+		}
 
-    h2 {
-      font-family: 'Open Sans', sans-serif;
-      font-weight: 700;
-      color: gray;
-      font-size: 1.25em;
-      letter-spacing: .04em;
-    }
+		h2 {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 700;
+			color: gray;
+			font-size: 1.1em;
+			letter-spacing: .04em;
+		}
 
-    p {
-      font-size: 1em;
-      line-height: 1.5em;
-    }
+		p {
+			font-size: 1em;
+			line-height: 1.5em;
+		}
 
-    a {
-      color: #005daa;
-      text-decoration: none;
-    }
+		a {
+			color: #005daa;
+			text-decoration: none;
+		}
 
-    a:hover {
-      text-decoration: underline;
-    }
+		a:hover {
+			text-decoration: underline;
+		}
 
-    ul {
-      padding-left: 20px;
-    }
+		ul {
+			padding-left: 20px;
+		}
 
-    li {
-      margin: 10px 0
-    }
+		li {
+			margin: 10px 0
+		}
 
-    #map {
-      width: 100%;
-      margin: 0px auto;
+		#map {
+			width: 100%;
+			margin: 0px auto;
+		}
 
-    }
+		.max-width-img {
+			width: 100%;
+		}
 
-    .max-image-width {
-      width: 100%;
-    }
-
-
-    .linkbox {
-      margin: 3px 0 20px 0;
-      display: block;
-      font-weight: 300;
-    }
-
-    hr {
-      border: 0px;
-      border-bottom: 1px solid #3d3d3d;
-      padding-top: 20px;
-    }
-
-    /* Use float property to make two-column layout. */
-
-    .first-column {
-      float: left;
-      width: 48%;
-      padding-right: 20px;
-    }
-
-    .column {
-      float: left;
-      width: 48%;
-    }
-
-    /* Clear floats after the columns */
-
-    .row:after {
-      content: "";
-      display: table;
-      clear: both;
-    }
-
-    /* When browser is 800px wide or less */
-
-    @media screen and (max-width: 800px) {
-      .first-column,
-      .column {
-        width: 100%;
-      }
-    }
-  </style>
+		/* Add custom style class here */
+	</style>
 </head>
 
 <body>
-  <!-- Add map to top of page and make it stretch to fill browser window. -->
-  <div class="row">
-    <div class="column">
-      <img src="maps/BirthTotals_v01_1200px.png" style="width:100%" class="max-image-width">
-    </div>
-    <div class="column">
-      <img src="maps/SurveillanceMap_v01_1200px.png" style="width:100%" class="max-image-width">
-    </div>
-  </div>
+	<section>
+		<!-- The division element contains an image element -->
+		<div id='map'>
+			<!-- The image element uses the the 'src' property to show an image on the page. -->
+			<img src="Map/RRG_Visibility_300dpi.png" class="max-width-img" alt="viewshed analysis of popular hiking destinations in Red River Gorge">
+		</div>
+		<a href='Map/RRG_Visibility_600dpi.png' class="linkbox">A higher resolution version of this viewshed analysis</a>
+		<h1>Map 671 Module-01 Map</h1>
 
-  <!-- Create a two column layout for map information. -->
-  <section>
-    <a href='maps/BirthTotals_v01_8000px.png' class="linkbox">Higher resolution version available of the total births map</a>
-    <a href='maps/SurveillanceMap_v01_8000px.png' class="linkbox">Higher resolution version available of the birth defects surveillance locations</a>
-
-    <h1>Identifying new opportunities for birth defects surveillance</h1>
-    <h2>Authored by: jfobrycki @ New Maps Plus</h2>
-
-    <div class="row">
-<p>Map created using QGIS 3.10 on Windows 10 using a 1:120000000 scale and the World Robinson projection (EPSG 54030)</p>
-    <h3>Map details</h3>
-    <b>Total births</b>
-
-<li>The United Nations maintains projections of global birth rates by countries and by region. This resource is available from this <a href="https://population.un.org/wpp/Download/Standard/CSV/">downloads page</a>. The specific dataset of interest is <a href="https://population.un.org/wpp/Download/Files/1_Indicators%20(Standard)/CSV_FILES/WPP2019_Fertility_by_Age.csv">Fertility Indicators</a>. </li>
-
-<b>Birth defects surveillance</b>
-<li>
-<a href="http://www.icbsr.org" target="_blank">The International Clearinghouse for Birth Defects Surveillance and Research</a>is one place where multiple entities combine data about birth defects. There are other places where this information is combined, for example <a href="https://eu-rd-platform.jrc.ec.europa.eu/eurocat" target="new">EUROCAT</a>. 
-For this map, the ICBDSR provides a <a href=" http://www.icbdsr.org/programme-description/" target="new">list of places where surveillance programs occur</a>. This list can be copied and pasted into a text document or excel file.
-</li>  
-
-<b>Country maps</b>
-<li>
-A shapefile that contains countries of the world is available from Natural Earth, specifically the <a href="https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/">Admin 0 – Countries option without boundary lakes</a>. A direct download of this file is available <a href="https://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries_lakes.zip">here</a>.
-
-<h3>Methods</h3>
-<li>For more information about the methods used to create these maps, please see the methods described on <a href="https://github.com/jfobrycki/birthdefectdata">GitHub</a>.</li>
-    <p>
-      University of Kentucky New Maps Plus, December 2019
-    <p>
-    <hr>
-    <ul>
-      <li>See my projects on GitHub: <a href="https://github.com/jfobrycki">John F. Obrycki</a></li>
-			<li>Visit my <a href='https://www.linkedin.com/in/john-f-obrycki-1a3b032b'>LinkedIn page</a>.</li>
-    </ul>
-  </section>
-
+		<!-- Add you information below -->
+		<h2>Map authored by: James FL Thompson (Github: <a href="https://github.com/Geodood19/" target="blank">Geodood19</a>)</h2>
+		<p>This is a map showcasing the visibility from atop various popular hiking destinations in Red River Gorge. Additional details about the map making process can be found at the <a href="https://github.com/Geodood19/map671FinalProject?tab=readme-ov-file#final-project-link" target="blank">source repository</a>.
+			
+		<ul>
+			<!-- Change the following contacts to your personal brand, whatever you want it to be! -->
+			<li>See my projects on GitHub: <a href="https://github.com/Geodood19">Geodood19</a></a></li>
+            <li><a href="https://www.linkedin.com/in/james-thompson-406800159/">LinkedIn: James FL Thompson</a></a></li>
+		</ul>
+		<hr>
+		<a href="https://uky-gis.github.io"><img width="20%"
+				src="https://uky-gis.github.io/graphics/logo-color-400px.png"
+				alt="University of Kentucky Geography"></a>
+		<a href="https://newmapsplus.as.uky.edu"><img width="15%"
+				src="https://newmapsplus.as.uky.edu/sites/default/files/NMP%20Logo.png" alt="New Maps Plus"></a>
+	</section>
 </body>
+
 </html>
