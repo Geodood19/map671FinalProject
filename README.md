@@ -6,8 +6,6 @@ If you would like to view this map, [please click here](https://...).
 
 ## Project Contents
 
-If you wanted to include a table of contents to sections, and then links to each section.
-
 - [Background](#background)
 - [Purpose](#purposepurpose)
 - [Data Source](#data-source)
