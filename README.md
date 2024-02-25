@@ -7,7 +7,7 @@ If you would like to view this map, [please click here](https://...).
 ## Project Contents
 
 - [Background](#background)
-- [Purpose](#purposepurpose)
+- [Purpose](#purpose)
 - [Data Source](#data-source)
 - [Creating the Map](#creating-the-map)
 - [Summary](#map-summary)
