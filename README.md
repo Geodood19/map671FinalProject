@@ -10,7 +10,7 @@ If you would like to view this map, [please click here](https://...).
 - [Purpose](#purpose)
 - [Data Source](#data-source)
 - [Creating the Map](#creating-the-map)
-- [Summary](#map-summary)
+- [Summary](#summary)
 - [Final Map](#final-project-link)
 
 ***
