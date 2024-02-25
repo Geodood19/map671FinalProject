@@ -1,4 +1,5 @@
 # Map of visibility overlap from popular destinations in Red River Gorge
+
 This map is designed to show overlapping visibilities from popular hiking destinations within Red River Gorge. While this map is to serve as no replacement to the real experience, it is intended to be supplementary to what hikers can see from these destinations and where overlap from these viewpoints can occur. 
 
 If you would like to view this map, [please click here](https://...).
@@ -9,7 +10,10 @@ If you wanted to include a table of contents to sections, and then links to each
 
 - [Data Source](#data-source)
 - [Project Background](#project-background)
-- ....
+- [Purpose](purpose)
+- [Mapmaking Process](#mapmaking-process)
+- [Summary](#map-summary)
+- [Final Map](#final-project-link)
 
 ***
 
@@ -19,6 +23,9 @@ If you wanted to include a table of contents to sections, and then links to each
 
 * Initial Data projection: WGS 84, NAD83 (2011) Kentucky Single Zone (EPSG 3089)
 * Final Map projection: NAD83 (2011) / UTM Zone 17N (EPSG: 6346)
+* County data: US Census Bureau TIGER Lines: [County TIGER Lines](https://www2.census.gov/geo/tiger/TIGER2023/COUNTY/)
+* © OpenStreetMap contributors (basemap, overlook data)
+* Imagery: KyFromAbove Partners [KyFromAbove webpage](https://kyfromabove.ky.gov/)
 
 ### Project Background
 
@@ -43,7 +50,7 @@ You can also use some lists, and here's some formatting ideas.
 3. 
 4. 
 
-### Map summary
+### Summary
 
 What are the key findings to take from your map and the overall mapmaking process?
 
