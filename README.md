@@ -149,14 +149,17 @@ To connect to the map server, you will need to navigate in QGIS to the Browser p
  You can also find a link to a higher resolution map [here](Map/RRG_Visibility_600dpi.png). 
  
 
-1. **Example bold**
-2. *Example italics*
-3. 
-4. 
-
 ### Summary
 
-What are the key findings to take from your map and the overall mapmaking process?
+Based on the analysis produced, it looks like there is a lot of overlapping visibility in Red River Gorge, no matter which hike you decide to take!
+
+In the western-most portion of the analysis, around Courthouse Rock, Haystack Rock, and Raven Rock, there appears to be a lot of overlapping visibility from those viewpoints. In particular, there is a section west of those points which offers a lot of great vies across the Red River valley inside Red River Gorge! not only, that, there are great views as you look North and East from these locations towards the eastern portion of this analysis. 
+
+The eastern-most section, I thought, would provide the more consistent visibility overlap in this area, and it turn sout that might be true! While there does not appear to be a large amount of "4" visibility rating areas, there is a consistent amout of "2" and "3" rated areas. this means that if you decide to hike Hansen's Point, Half Moon Arch, or Chimney Top Rock, you are like to see the same things as hikers on these oppposing trails. It will just be from a different perspective!
+
+Viewpoints from Cloud Splitter and Adena Arch were also added to analyze visibility from these areas and if there are any overlapping visbilities from Hanen's Point, Half Moon Arch, or Chimney Top Rock. Turns out, Adena Arch might only share visibilty ranges with Cloud Splitter, as there is only an overlapping visibility rating of "2" in areas south of Adena Arch. There is shared visibility north of Cloud Splitter with Adena Arch, but there is a shared visibility range with other popular hiking desintations, possibly Chimney Top Rock or Hansen's Point. 
+
+While this is an entirely informational purpose, this gives an interesting perspective of mapping opportunities within Red River Gorge, and where you can expect to see from any one hiking destination. Now is your chance to go out and experience this magical landscape!
 
 ## Final Project Link
 
