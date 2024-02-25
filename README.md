@@ -9,7 +9,7 @@ If you would like to view this map, [please click here](https://...).
 If you wanted to include a table of contents to sections, and then links to each section.
 
 - [Background](#background)
-- [Purpose](purpose)
+- [Purpose](#purposepurpose)
 - [Data Source](#data-source)
 - [Creating the Map](#creating-the-map)
 - [Summary](#map-summary)
