@@ -75,7 +75,7 @@ To connect to the map server, you will need to navigate in QGIS to the Browser p
 
  ![Warp](graphics/Warp_ReprojectTool.JPG)
 
- *Warp (Reproject) tool window. 
+ *Warp (Reproject) tool window.* 
 
  Now we should be able to go ahead and start collecting the points for our viewshed analysis! Now if you are a connoisseur of Red River Gorge and the hiking trails in the Geological Area, you could probably pick out the spots you want with just the imagery alone. But we are going to use a combination of imagery and a great basemap to pick our spots. Feel free to add any topographic basemap layer, but for the purposes of this analysis, I chose OpenStreetMap as my basemap layer to pick the spots I want. The resulting window should look similar to the below:
 
