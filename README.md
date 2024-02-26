@@ -2,7 +2,7 @@
 
 This map is designed to show overlapping visibilities from popular hiking destinations within Red River Gorge. While this map is to serve as no replacement to the real experience, it is intended to be supplementary to what hikers can see from these destinations and where overlap from these viewpoints can occur. 
 
-If you would like to view this map, [please click here](https://...).
+If you would like to view this map, [please click here](Map/RRG_Visibility_600dpi.png).
 
 ## Project Contents
 
@@ -163,4 +163,4 @@ While this is an entirely informational purpose, this gives an interesting persp
 
 Here you are linking from the README.md to the index.html.
 
-Please view the [final map online](https://Geodood19.github.io/map671FinalProject)
+Please view the [final map online](https://Geodood19.github.io/map671FinalProject).
