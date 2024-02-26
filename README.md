@@ -130,7 +130,7 @@ To connect to the map server, you will need to navigate in QGIS to the Browser p
 
  *Symbology window for the viewshed raster layer*
 
- You can see that the colors are all similar in that they are in the same family tree. I stuck with a light color as my first color, and then incrementally changed the values for each color to incrementally make them darker. 
+ You can see that the colors are all similar in that they are in the same family tree. I stuck with a light color as my first color, and then changed the values for each color to incrementally make them darker. 
 
  Couple of things to note: because we want to see **only** what is visible, we want to remove any pixel value of "0" from being shown on the map. You will also note that I also have the ppixel value of "5" set to 100% transparent. The results I generated only provided me values from 0-4, so there was no need to symbolize 5 on the map. 
 
