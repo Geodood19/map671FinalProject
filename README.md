@@ -55,7 +55,7 @@ When you navigate to this webpage, you will need to create your own account. Cli
 
 *Details to create an account to download 30-meter SRTM tiles*
 
-This step is not mandatory, but was performed for this analysis and that was to add KyFromAbove imagery data from their map server to be used directly in QGIS. The KyFromAbove program does a really great job of providing GIS data that is easy to use and download for the public. As a bonus, the resolution on the imagery for the entire state is offered at 6 inches, allowing for amazing detailf or our cartographic use!
+This step is not mandatory, but was performed for this analysis and that was to add KyFromAbove imagery data from their map server to be used directly in QGIS. The KyFromAbove program does a really great job of providing GIS data that is easy to use for the public. As a bonus, the resolution on the imagery for the entire state is offered at 6 inches, allowing for amazing detailf or our cartographic use!
 
 To connect to the map server, you will need to navigate in QGIS to the Browser panel, and then right click on XYZ  Tiles -> New Connection. In the resulting window, copy and paste the URL for the KyFromAbove Map server:
 
