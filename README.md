@@ -120,7 +120,7 @@ To connect to the map server, you will need to navigate in QGIS to the Browser p
 
  *Viewshed Tool*
 
- The *Viewshed* tool allows us to choose a couple of different analysis types, such as Depth below horizon and horizon. For this, we ant a binary viewshed which allows us the rating of being visible (0) or not visibile (1). 
+ The *Viewshed* tool allows us to choose a couple of different analysis types, such as Depth below horizon and horizon. For this, we want a binary viewshed which allows us a raster output with the rating of being visible (0) or not visibile (1) from each viewpoint. 
 
  We also want to combine our multiple outputs using the Addition option. This combines what is visible between viewpoints and adds those binary values together to give a visibility rating for each pixel! The output will generate 30-meter viewshed pixels with varying pixel values. Click *Run* to execute the tool. 
 
