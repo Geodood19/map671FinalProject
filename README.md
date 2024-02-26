@@ -151,7 +151,7 @@ To connect to the map server, you will need to navigate in QGIS to the Browser p
 
 Based on the analysis produced, it looks like there is a lot of overlapping visibility in Red River Gorge, no matter which hike you decide to take!
 
-In the western-most portion of the analysis, around Courthouse Rock, Haystack Rock, and Raven Rock, there appears to be a lot of overlapping visibility from those viewpoints. In particular, there is a section west of those points which offers a lot of great views across the Red River valley inside Red River Gorge! not only, that, there are great views as you look North and East from these locations towards the eastern portion of this analysis. 
+In the western-most portion of the analysis, around Courthouse Rock, Haystack Rock, and Raven Rock, there appears to be a lot of overlapping visibility from those viewpoints. In particular, there is a section west of those points which offers a lot of great views across the Red River valley inside Red River Gorge! Not only that, there are great views as you look North and East from these locations towards the eastern portion of this analysis. 
 
 The eastern-most section, I thought, would provide the more consistent visibility overlap in this area, and it turn sout that might be true! While there does not appear to be a large amount of "4" visibility rating areas, there is a consistent amout of "2" and "3" rated areas. this means that if you decide to hike Hansen's Point, Half Moon Arch, or Chimney Top Rock, you are like to see the same things as hikers on these oppposing trails. It will just be from a different perspective!
 
