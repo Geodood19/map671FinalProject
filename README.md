@@ -83,7 +83,7 @@ To connect to the map server, you will need to navigate in QGIS to the Browser p
 
  *QGIS workspace after adding OpenStreetMap base layer and navigating to Red River Gorge*
 
- This is where you will need to create the points to add into your analysis. Find in QGIS the *"Add New Shapefile Layer"* and fill out the window to be something similar to what you see below.
+ This is where you will need to create the points to add into your analysis. Find in QGIS the *"Add New Shapefile Layer"* button and fill out the window to be something similar to what you see below.
 
  ![create new shapefile](graphics/CreateNewShapefile.JPG)
 
