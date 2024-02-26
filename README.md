@@ -132,7 +132,7 @@ To connect to the map server, you will need to navigate in QGIS to the Browser p
 
  You can see that the colors are all similar in that they are in the same family tree. I stuck with a light color as my first color, and then changed the values for each color to incrementally make them darker. 
 
- Couple of things to note: because we want to see **only** what is visible, we want to remove any pixel value of "0" from being shown on the map. You will also note that I also have the ppixel value of "5" set to 100% transparent. The results I generated only provided me values from 0-4, so there was no need to symbolize 5 on the map. 
+ Couple of things to note: because we want to see **only** what is visible, we want to remove any pixel value of "0" from being shown on the map. You will also note that I also have the pixel value of "5" set to 100% transparent. The results I generated only provided me values from 0-4, so there was no need to symbolize 5 on the map. 
 
  Another thing: feel free to play around with blend modes for your map as well! This is a great way to symbolize and style raster layers in your map and can be used to spice up your maps. I wanted to use an imagery basemap in my final map, so this raster works very well with an Overlay blend mode which combines the colors in the raster with that of the next layer directly below it. The result looks similar to the below screenshot.
 
