@@ -98,7 +98,7 @@ To connect to the map server, you will need to navigate in QGIS to the Browser p
  As a check up, you should have the following in your QGIS Project:
 
  1. DEM Downloaded from the SRTM 30-meter Tile Downloader website.
- 2. A reprojected DEM *using the Warp tool and not as a new export*.
+ 2. A reprojected DEM *using the Warp tool and **not as a new export***.
  3. Optional Imagery and OpenStreetMap (or other) basemap layer added to reference for the digitizing step.
  4. A point shapefile/layer digitized from the base layer and imagery.
 
