@@ -112,7 +112,7 @@ To connect to the map server, you will need to navigate in QGIS to the Browser p
 
  The observer height was chosen to be 1.8 meters, as that is the average adult height. If you were to choose an observation tower, such as the one mentioned previous in Great Smoky Mountains National Park on Clingman's Dome, you would need to set this observer height to be that of the observation tower. You could theoretically play around with this number and figure out what a 3 meter tall adult would be able to see from each viewpoint, or if there were a 15 meter observational tower at each viewpoint! More opportunities for more fun maps! For now, it is best to keep it at the average adult height since there are no towers to climb for the awesome views in Red River Gorge.
 
- You should have your viewshed layer created! Feel free to save that as its own layer in your desired location. Time to create our viewshed!
+ You should have your viewpoints layer created! Feel free to save that as its own layer in your desired location. Now, it is time to create our viewshed!
 
  The viewshed tool outputs a raster layer that we can use to showcase the visible areas in Red River Gorge. Search for *Viewshed* in the Processing Toolbox pane. Fill in the Observer Location to be the viewpoints layer you just created, and the Digital elevation model as your DEM, in the correct PCS. 
 
